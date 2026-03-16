@@ -15,10 +15,10 @@ export const MeredithPortfolio = ({projectImageStyle}) => {
                 {showDescription && (
                     <div>
                         <p className="indent-5">
-                        A professional portfolio for Dr. Meredith Clements at University of Tampa. Developed to advertise her expertise and area of research.
+                        A professional portfolio for Dr. Meredith Clements at University of Tampa. Developed to highlight her expertise and area of research.
                         </p>
                         <p className="indent-5 mt-1">
-                        Utilized ReactJS for front-end development, Cloudinary for image storage and management, and Netlify for deployment.
+                        Free-lance project utilizing ReactJS for front-end development, and Netlify for deployment. 
                         </p>
                     </div>
                 )}
