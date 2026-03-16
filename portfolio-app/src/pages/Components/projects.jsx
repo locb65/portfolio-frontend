@@ -5,6 +5,7 @@ import { FFXAPIProject } from './ffApiProject'
 import { TriviaProject } from './triviaGame'
 import './styles.css'
 import  { ProficiencyBar } from "./proficiencyBar";
+import { MeredithPortfolio } from './meredithPortfolio'
 
 export const Projects = () => {
     const projectImageStyle = 'border-2 rounded-xl object-contain h-60 object-fill'
@@ -48,6 +49,7 @@ export const Projects = () => {
             overflow-y-auto 
             max-h-screen 
             max-w-screen-lg'>
+                <MeredithPortfolio projectImageStyle={projectImageStyle}/>
                 <ClinkCityProject projectImageStyle={projectImageStyle}/>
                 <PlatefulsProject projectImageStyle={projectImageStyle}/>
                 <FFXAPIProject projectImageStyle={projectImageStyle}/>
